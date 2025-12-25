@@ -1,5 +1,5 @@
 {
-  "name": "opencode-background-process",
+  "name": "@howaboua/opencode-background-process",
   "version": "0.1.0",
   "type": "module",
   "description": "OpenCode plugin for managing background processes - launch, monitor, and control long-running tasks",
