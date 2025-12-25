@@ -8,6 +8,9 @@
   "files": ["dist", "README.md", "LICENSE"],
   "keywords": ["opencode", "opencode-plugin", "plugin", "background-process", "process-manager", "dev-server"],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "@opencode-ai/plugin": "^1.0.0"
   },
