@@ -2,7 +2,7 @@
 
 An OpenCode plugin for managing background processes. Launch, monitor, and control long-running tasks like dev servers, watchers, and build processes.
 
-![background-process](https://github.com/user-attachments/assets/e7b84201-09af-45c5-8bf5-711e5a59164f)
+![background-process jpg](https://github.com/user-attachments/assets/33b3199b-146e-49ae-9914-9d8e6b112de1)
 
 ## Installation
 
