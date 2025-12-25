@@ -10,7 +10,7 @@ Add to your `opencode.json`:
 
 ```json
 {
-  "plugin": ["opencode-background-process"]
+  "plugin": ["@howaboua/opencode-background-process/@latest"]
 }
 ```
 
