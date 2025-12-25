@@ -1,0 +1,26 @@
+{
+  "name": "opencode-background-process",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "OpenCode plugin for managing background processes - launch, monitor, and control long-running tasks",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist", "README.md", "LICENSE"],
+  "keywords": ["opencode", "opencode-plugin", "plugin", "background-process", "process-manager", "dev-server"],
+  "license": "MIT",
+  "peerDependencies": {
+    "@opencode-ai/plugin": "^1.0.0"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "^1.0.0",
+    "@types/bun": "^1.2.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
+    "dev": "opencode plugin dev",
+    "prepublishOnly": "npm run build"
+  }
+}
